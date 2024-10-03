@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    min-width: 320px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: rgb(248, 1, 1);
+}
+
+a.active {
+    color: red;
+    font-weight: 500;
+}
+
+/* Start Header */
+
+.navbar .navbar-nav .nav-link {
+    color: #111111;
+    font-weight: 300;
+}
+
+.top-bar li a::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: red;
+    height: 1px;
+    transition: all .3s;
+    transform: scale(0);
+}
+
+.top-bar li a:hover::after {
+    transform: scale(1);
+}
+
+/* End Header */
+
+/* Start Main */
+.section-1 {
+    height: 460px;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../media/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-1 h1 {
+    font-size: 4rem;
+    color: #ffffff;
+}
+
+.section-1 p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.verbose-button {
+    border-radius: 20px;
+    transition: all .3s;
+}
+
+.verbose-button:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+    background-color: rgb(193, 15, 15);
+    border: 1px solid rgb(193, 15, 15);
+}
+
+.service-card {
+    width: 350px;
+}
+
+.company-section {
+    margin: 40px 0;
+    height: 680px;
+}
+
+.company-section h1 {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.company-section h3 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.company-section p {
+    font-weight: 300;
+}
+/* End Main */
+
+/* Start Footer */
+footer .list-inline-item a {
+    color: rgb(141, 141, 253);
+}
+
+footer .list-inline-item a:hover {
+    color: rgb(216, 64, 64);
+}
+/* End Footer*/
